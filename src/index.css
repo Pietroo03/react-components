@@ -13,3 +13,50 @@ header {
   color: black;
   padding: 1rem;
 }
+
+main {
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-section {
+      background-color: white;
+      width: 600px;
+      padding: 1rem;
+    }
+
+    img {
+      width: 600px;
+    }
+
+    div {
+      font-size: 1.5rem;
+      padding: 1rem 0;
+    }
+
+    button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      background-color: orange;
+      border: none;
+      font-weight: bold;
+      color: white;
+
+      &:hover {
+        scale: 1.1;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+
+
+}
