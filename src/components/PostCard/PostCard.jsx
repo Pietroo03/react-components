@@ -6,7 +6,7 @@ export default function PostCard() {
     return (
         <div className={style.card}>
             <img src={image} alt="" />
-            <div className="text-section">
+            <div className={style.textSection}>
                 <div className="title">
                     <strong>Lui è Jack!</strong>
                 </div>
