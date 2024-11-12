@@ -1,6 +1,6 @@
 import image from '../../assets/img/procione.jpg'
 import Button from '../Button/Button'
-import style from './PostCard.modules.css'
+import style from './PostCard.module.css'
 export default function PostCard() {
 
     return (
