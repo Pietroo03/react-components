@@ -1,9 +1,10 @@
 import image from '../../assets/img/procione.jpg'
 import Button from '../Button/Button'
+import style from './PostCard.modules.css'
 export default function PostCard() {
 
     return (
-        <div className="card">
+        <div className={style.card}>
             <img src={image} alt="" />
             <div className="text-section">
                 <div className="title">

@@ -1,4 +1,4 @@
-import PostCard from "./PostCard/PostCard"
+import PostCard from "./PostCard/PostCard.jsx"
 export default function AppMain() {
 
     return (
