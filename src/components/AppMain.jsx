@@ -1,4 +1,5 @@
 import image from '../assets/img/procione.jpg'
+import Button from './Button/Button'
 export default function AppMain() {
 
     return (
@@ -14,7 +15,7 @@ export default function AppMain() {
                         <div className="description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at non error molestias reiciendis obcaecati consequatur maiores ipsum! Ullam corporis aut suscipit quas maxime ad perspiciatis earum cumque sint quaerat.
                         </div>
-                        <button>Approfondisci Jack</button>
+                        <Button />
                     </div>
                 </div>
             </div>
