@@ -14,12 +14,14 @@ header {
   padding: 1rem;
 }
 
+.container {
+  width: 90%;
+  margin: auto;
+}
+
 main {
 
-  .container {
-    width: 90%;
-    margin: auto;
-  }
+  min-height: calc(100vh - 70px);
 
   .card {
     display: flex;
@@ -57,6 +59,14 @@ main {
 
   }
 
+}
 
-
+footer {
+  background-color: #333;
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.25rem;
 }
